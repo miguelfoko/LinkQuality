@@ -860,7 +860,7 @@ def my_general_random_forest_with_threads(df,size_of_test,kind,path):#Kind can b
 
 #ros = RandomOverSampler(random_state=0)
 #rus = RandomUnderSampler(random_state=0)
-path="C:\\Users\WSN-LINK\\Documents\\TEST\\SOCALE\\CHOOSE\\FINAL\\GENERAL\\"
+path="C:\\Users\Hp\\Documents\\TEST\\FINAL\\GENERAL\\"
 path2="C:\\Users\WSN-LINK\\Documents\\TEST\\SOCALE\\CHOOSE\\FINAL\\"
 my_execution_list=['lr', 'lsvm','svm','rf']
 my_execution_list1=['lr']
@@ -869,9 +869,9 @@ my_execution_list1=['lr']
 #print("Accuracy of PDR [lr,lsvm,rf,svm] = ",my_general_predictor(df,0.25,"pdr",path))
 #print("Accuracy of RSSI [lr,lsvm,rf,svm] = ",my_general_predictor(df,0.25,"rssi",path))
 
-my_general_linear_svm_with_threads(df,0.25,'pdr',path)
+##my_general_linear_svm_with_threads(df,0.25,'pdr',path)
 #executor(df,19, 44, 0.25,my_execution_list,path2)
-#executor(df,3, 15, 0.25,my_execution_list,path)
+executor(df,2, 47, 0.25,my_execution_list,path)
 #final_executor(df,0.25,my_execution_list,path)
 
 
